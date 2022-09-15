@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyles from './components/styles/Global.style'
 import content from './content'
 import Card from './components/featurs/Card.component'
+import Footer from './components/featurs/Footer.component'
 
 export default function App() {
 
@@ -18,6 +19,7 @@ export default function App() {
         <Card key={index} item = {item}/>
       ))}
     </Container>
+    <Footer/>
       </>
     </ThemeProvider>
   )
