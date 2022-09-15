@@ -3,6 +3,8 @@ import Header from './components/featurs/Header.component'
 import { Theme } from './components/styles/Theme'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyles from './components/styles/Global.style'
+import content from './content'
+
 export default function App() {
 
   return (
@@ -11,7 +13,9 @@ export default function App() {
       <GlobalStyles/>
     <Header/>
     <Container>
-      <h1>Hello World</h1>
+      {content.map((item,index) => (
+        <></>
+      ))}
     </Container>
       </>
     </ThemeProvider>
