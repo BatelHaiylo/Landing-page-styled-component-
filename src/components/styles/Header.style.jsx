@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Header from "../featurs/Header.component";
+import Header from "../features/features";
 
 export const StyledHeader= styled.header`
 background-color: #ebfbff;
