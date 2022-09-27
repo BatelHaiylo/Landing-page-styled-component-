@@ -1,11 +1,11 @@
 import {Container} from '../styles/Container.style'
 import {StyledFlex} from '../styles/Flex.style'
-import {StyledFoote} from '../styles/Footer.style'
+import {StyledFooter} from '../styles/Footer.style'
 import SocialIcons from './SocialIcons.component';
 
 export default function Footer() {
     return ( 
-        <StyledFoote>
+        <StyledFooter>
             <Container>
                 <img src="./images/logo_white.svg" alt="white logo"/>
 
@@ -32,6 +32,6 @@ export default function Footer() {
                 </StyledFlex>
                 <p>&copy; 2022 Huddle. All rights reserved</p>
             </Container>
-        </StyledFoote>
+        </StyledFooter>
      );
 }
